@@ -14,7 +14,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.4.0-20220221</app.runtime>
-		<mule.maven.plugin.version>3.8.6</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.5.2</mule.maven.plugin.version>
 		
 		<maven.compiler.source>1.8</maven.compiler.source>
     	<maven.compiler.target>1.8</maven.compiler.target>
@@ -25,7 +25,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-clean-plugin</artifactId>
-				<version>3.8.6</version>
+				<version>3.0.0</version>
 			</plugin>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
