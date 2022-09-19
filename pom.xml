@@ -38,7 +38,7 @@
 						<muleVersion>4.4.0</muleVersion>
 						<username>MeridianDemo</username>
 						<password>Mulesoft202@Mule</password>
-						<applicationName>demo-ci-cd</applicationName>
+						<applicationName>joes-mule-ci-cd-demo-app</applicationName>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
 						<workerType>Micro</workerType>
