@@ -15,9 +15,8 @@
 
 		<app.runtime>4.4.0-20220221</app.runtime>
 		<mule.maven.plugin.version>3.5.2</mule.maven.plugin.version>
-		
 		<maven.compiler.source>1.8</maven.compiler.source>
-    	<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
 	<build>
@@ -44,6 +43,7 @@
 						<workerType>Micro</workerType>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
+					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
 		</plugins>
